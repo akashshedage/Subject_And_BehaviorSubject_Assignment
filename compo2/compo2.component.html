@@ -1,0 +1,25 @@
+<!-- <div class="box">
+    Username : <strong>{{username}}</strong>
+    <br> <br>
+    <input type="text" placeholder="Update user name" #uname>
+    <button (click)="updateUserName(uname)">Update</button>
+</div> -->
+
+
+<div class="card">
+    Brand: <strong>{{CD.brandname}}</strong>
+    <br> <br>
+    Model: <strong>{{CD.modelname}}</strong>
+    <br> <br>
+    Price: <strong>{{CD.modelprice}}</strong>
+    <br> <br>
+    Color: <strong>{{CD.modelcolor}}</strong>
+    <br> <br>
+    
+    <input type="text" placeholder="Brand Name" #bname>
+    <input type="text" placeholder="Model Name" #mname>
+    <input type="text" placeholder="Price" #price>
+    <input type="text" placeholder="Color" #color>
+    <br>
+    <button class="btn btn-outline-success" (click)="updateCarDetails(bname, mname, price, color)">Update</button>
+</div>
